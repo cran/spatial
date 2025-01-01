@@ -39,7 +39,7 @@ static void
 testinit(void)
 {
     if ((xu0 == xl0) || (yu0 == yl0))
-	error("not initialized -- use ppregion");
+	Rf_error("not initialized -- use ppregion");
 }
 
 
